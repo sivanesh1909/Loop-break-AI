@@ -23,7 +23,7 @@ class Settings(BaseSettings):
     MAX_UPLOAD_SIZE_MB: int = 10
 
     # CORS
-    CORS_ORIGINS: str = "http://localhost:5173,http://localhost:3000"
+    CORS_ORIGINS: str = "http://localhost:5173,http://localhost:3000,https://loop-break-ai.vercel.app,*"
 
     # Embeddings
     USE_EMBEDDINGS: bool = False
